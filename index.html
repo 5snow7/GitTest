@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>TTT_2021</title>
+
+    <script src="sketch.js"></script>
+    <script src="logo.js"></script>
+    <script src="stuff.js"></script>
+    <script src="line.js"></script>  
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  
+  <body id="bod1" onkeydown="checking()">
+  <div id="div1">
+  <p id="par1"> Block1
+  <img id="img11" src="cowpic1.jpg" width="90" height="90">
+  <img id="img12" src="cowpic2.jpg" width="0" height="0">
+  <img id="img13" src="cowpic3.jpg" width="0" height="0">
+  </p>
+  
+  <p id="par2"> Block2
+  <img id="img21" src="cowpic1.jpg" width="90" height="90">
+  <img id="img22" src="cowpic2.jpg" width="0" height="0">
+  <img id="img23" src="cowpic3.jpg" width="0" height="0">
+  </p>
+  
+  <p id="par3"> Block3
+  <img id="img31" src="cowpic1.jpg" width="90" height="90">
+  <img id="img32" src="cowpic2.jpg" width="0" height="0">
+  <img id="img33" src="cowpic3.jpg" width="0" height="0">
+  </p>
+  
+  </div>
+  <div id="div2">
+  <input type="button" id="but12"  value="Block1_Pic2" onclick="chgtoPic12(15)">
+  <input type="button" id="but13"  value="Block1_Pic3" onclick="chgtoPic13()">
+ 
+  <input type="button" id="but22"  value="Block2_Pic2" onclick="chgtoPic22(15)">
+  <input type="button" id="but23"  value="Block2_Pic3" onclick="chgtoPic23()">
+  
+  <input type="button" id="but32"  value="Block3_Pic2" onclick="chgtoPic32(15)">
+  <input type="button" id="but33"  value="Block3_Pic3" onclick="chgtoPic33()">
+  
+  </div>
+</body>
+
+<script>
+let pic=[];
+for(let j=0;j<10;j++){pic[j]=[];}
+let pic11=document.getElementById("img11");
+let pic12=document.getElementById("img12");
+let pic13=document.getElementById("img13");
+let pic21=document.getElementById("img21");
+let pic22=document.getElementById("img22");
+let pic23=document.getElementById("img23");
+let pic31=document.getElementById("img31");
+let pic32=document.getElementById("img32");
+let pic33=document.getElementById("img33");
+
+</script>
+ 
+
+</html>

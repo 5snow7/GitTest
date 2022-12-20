@@ -1,0 +1,36 @@
+
+
+
+
+#div1{position:absolute;left:50px;top:50px;border:green solid 5px;
+height:400px;width:540px;background-color:violet;}
+
+#par1{position:absolute;left:30px;top:10px;border:green solid 5px;
+height:120px;width:120px;padding:5px;background-color:yellow;}
+#par2{position:absolute;left:190px;top:10px;border:green solid 5px;
+height:120px;width:120px;padding:5px;background-color:yellow;}
+#par3{position:absolute;left:350px;top:10px;border:green solid 5px;
+height:120px;width:120px;padding:5px;background-color:yellow;}
+
+#img11{position:absolute;left:13px;top:20px;border:red solid 5px;}
+#img12{position:absolute;left:13px;top:20px;border:red solid 5px;}
+#img13{position:absolute;left:13px;top:20px;border:red solid 5px;}
+#img21{position:absolute;left:13px;top:20px;border:red solid 5px;}
+#img22{position:absolute;left:13px;top:20px;border:red solid 5px;}
+#img23{position:absolute;left:13px;top:20px;border:red solid 5px;}
+#img31{position:absolute;left:13px;top:20px;border:red solid 5px;}
+#img32{position:absolute;left:13px;top:20px;border:red solid 5px;}
+#img33{position:absolute;left:13px;top:20px;border:red solid 5px;}
+
+
+#div2{position:absolute;left:620px;top:50px;border:blue solid 5px;
+padding:10px; width:360px;height:300px;background-color:rgb(100,200,50);}
+
+#but12{position:absolute;left:20px;top:20px;border:green solid 5px;}
+#but13{position:absolute;left:20px;top:60px;border:green solid 5px;}
+
+#but22{position:absolute;left:130px;top:20px;border:green solid 5px;}
+#but23{position:absolute;left:130px;top:60px;border:green solid 5px;}
+
+#but32{position:absolute;left:240px;top:20px;border:green solid 5px;}
+#but33{position:absolute;left:240px;top:60px;border:green solid 5px;}
